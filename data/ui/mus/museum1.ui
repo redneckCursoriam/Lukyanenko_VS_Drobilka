@@ -1,0 +1,16 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="1.0">
+  <vbox name="museum" 
+        export="1" 
+        color="#ffffff" 
+        padding="5">
+    <align name="left_side"  align="center">
+      <sprite name="billboard"  width="768" height="1024" texture="./data/sourceUI/billboard.png"></sprite>
+    </align>
+  </vbox >
+</ui>
+
+
+
+

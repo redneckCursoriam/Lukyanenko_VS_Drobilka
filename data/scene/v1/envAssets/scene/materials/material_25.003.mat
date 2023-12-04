@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.16.1.0" guid="ba17b7c615322c6da453a2e8d03ea9274bd2145a" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<options two_sided="1"/>
+	<state name="emission">1</state>
+	<texture name="albedo">guid://b64d36288bd6a367d07f499aba430c31997b17dc</texture>
+	<texture name="normal">guid://373e67af0800f142940d7fb99b1325c46d97f653</texture>
+	<texture name="emission">guid://d15782a509aae84ba85cebcb4e69571f60a7e33a</texture>
+	<parameter name="metalness" expression="0">1</parameter>
+</material>

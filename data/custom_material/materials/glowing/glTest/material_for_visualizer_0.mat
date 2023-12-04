@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.16.1.0" guid="87cf2eb53e3d7090de770aaf01d33842fb051ab9" base_material="1b0180a9c546d1f4f982d4c3cfe4734612ccb1ed">
+	<parameter name="color_of_visualiser" expression="0">1 0 0 1</parameter>
+</material>

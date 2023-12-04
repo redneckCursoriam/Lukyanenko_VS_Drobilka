@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.16.1.0" guid="a5829db615ad799d5507ae58a3e1ddd73749e14a" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<options two_sided="1"/>
+	<texture name="albedo">guid://a2f53a68ec505aa71af117dafe78057182bb401c</texture>
+	<texture name="normal">guid://484cce3aa62a8851eed1257c5b1942ab6ffa780e</texture>
+	<parameter name="roughness" expression="0">0.5</parameter>
+</material>

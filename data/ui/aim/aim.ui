@@ -1,0 +1,13 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<ui version="1.0">
+  <vbox name="vbox2" 
+        export="1" 
+        >
+        
+    <sprite align="overlap" width="15" height="15" texture="./data/png/aim2.png"></sprite>
+
+  </vbox >
+
+</ui>

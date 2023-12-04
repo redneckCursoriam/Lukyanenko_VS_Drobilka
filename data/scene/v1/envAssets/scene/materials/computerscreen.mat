@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.16.1.0" guid="fa55ec083b9f1fc7c49bda7aa74fa791d5673bbc" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<options two_sided="1"/>
+	<state name="emission">1</state>
+	<texture name="albedo">guid://8c0703c58287a260c364723f5634da92047638c9</texture>
+	<texture name="emission">guid://d15782a509aae84ba85cebcb4e69571f60a7e33a</texture>
+</material>

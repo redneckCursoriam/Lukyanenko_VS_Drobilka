@@ -1,0 +1,10 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<ui version="1.0">
+    <vbox height="660" width="850" name="doc">
+        <sprite name="img" align="overlap" pos_x="0" pos_y="0" height="600" width="850" texture="./data/sourceUI/doc1.png"></sprite>
+        <sprite name="next" align="overlap" pos_x="0" pos_y="610" width="200" height="50" scale_y="0.5" texcoord_w="0.5" texture="./data/sourceUI/btn_next.png"></sprite>
+        <sprite name="exit" width="200" height="50" align="overlap" pos_x="650" pos_y="610" scale_y="0.5" texcoord_w="0.5" texture="./data/sourceUI/btn_exit_200.png"></sprite>
+    </vbox>
+</ui>

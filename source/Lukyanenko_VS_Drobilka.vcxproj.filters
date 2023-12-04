@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Natvis Include="../utils/natvis/unigine_stl.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppEditorLogic.cpp" />
+    <ClCompile Include="AppSystemLogic.cpp" />
+    <ClCompile Include="AppWorldLogic.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="WorldLoaderMenu.cpp">
+      <Filter>WorldLoaderMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimByStep.cpp">
+      <Filter>animByStep</Filter>
+    </ClCompile>
+    <ClCompile Include="GridGui.cpp">
+      <Filter>museumPopup</Filter>
+    </ClCompile>
+    <ClCompile Include="myTool.cpp">
+      <Filter>museumPopup</Filter>
+    </ClCompile>
+    <ClCompile Include="aFV.cpp">
+      <Filter>animateCamera\aFV</Filter>
+    </ClCompile>
+    <ClCompile Include="animateCamera.cpp">
+      <Filter>animateCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="demo1.cpp">
+      <Filter>demo</Filter>
+    </ClCompile>
+    <ClCompile Include="demo2.cpp">
+      <Filter>demo</Filter>
+    </ClCompile>
+    <ClCompile Include="demo3.cpp">
+      <Filter>demo</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>museumBilboard</Filter>
+    </ClCompile>
+    <ClCompile Include="mainMenuBg.cpp">
+      <Filter>mmBg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppEditorLogic.h" />
+    <ClInclude Include="AppSystemLogic.h" />
+    <ClInclude Include="AppWorldLogic.h" />
+    <ClInclude Include="WorldLoaderMenu.h">
+      <Filter>WorldLoaderMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimByStep.h">
+      <Filter>animByStep</Filter>
+    </ClInclude>
+    <ClInclude Include="GridGui.h">
+      <Filter>museumPopup</Filter>
+    </ClInclude>
+    <ClInclude Include="myTool.h">
+      <Filter>museumPopup</Filter>
+    </ClInclude>
+    <ClInclude Include="aFV.h">
+      <Filter>animateCamera\aFV</Filter>
+    </ClInclude>
+    <ClInclude Include="animateCamera.h">
+      <Filter>animateCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="demo1.h">
+      <Filter>demo</Filter>
+    </ClInclude>
+    <ClInclude Include="demo2.h">
+      <Filter>demo</Filter>
+    </ClInclude>
+    <ClInclude Include="demo3.h">
+      <Filter>demo</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>museumBilboard</Filter>
+    </ClInclude>
+    <ClInclude Include="mainMenuBg.h">
+      <Filter>mmBg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="WorldLoaderMenu">
+      <UniqueIdentifier>{860e558f-8dcd-4b35-a859-3c5fca5e0ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animByStep">
+      <UniqueIdentifier>{e0ba708c-a909-436b-85a4-c68c784b6480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="museumPopup">
+      <UniqueIdentifier>{57319af7-25c5-4755-be89-c11d23acb922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animateCamera">
+      <UniqueIdentifier>{625338a1-50dd-4853-ab68-4cff60ac9869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animateCamera\aFV">
+      <UniqueIdentifier>{22b3a0c8-86fe-49a4-b447-6220fd8f3847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo">
+      <UniqueIdentifier>{5481fe3a-962e-4ed2-be6e-c2e228f29bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="museumBilboard">
+      <UniqueIdentifier>{9249c144-94c6-449f-a8e0-d85c15b9e50d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mmBg">
+      <UniqueIdentifier>{3c789879-4895-42a4-828d-5e399363a7f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

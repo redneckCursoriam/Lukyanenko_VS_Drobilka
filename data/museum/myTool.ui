@@ -1,0 +1,30 @@
+<!-- creacte window with image and button -->
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="1.0">
+  <vbox name="vbox2" 
+        export="1" 
+        color="#6BE6FF" 
+        padding="10">
+    <window export="1" sizeable="0" width="350" height="350" color="#6BE6FF" >  
+    <text rich="1" size="150" >
+    <image src="data/png/el_engine.png" scale="%65"/>
+    </text>
+     </window>
+    <window export="1" sizeable="0" width="350" height="100">  
+ <label>
+          <text rich="1" >
+            <font size="25"><b>Электрический двигатель:</b></font>
+          </text>
+        </label>    
+          <label>
+          <text rich="1" >
+            <font size="16"><b>это электрическая машина, которая преобразует</b></font>
+          </text>
+          <text rich="1">
+            <font size="16"><b> электрическую энергию в механическую.</b></font>
+          </text>
+        </label>  
+     </window>
+  </vbox >
+
+</ui>

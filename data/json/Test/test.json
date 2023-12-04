@@ -1,0 +1,37 @@
+{
+  "questions": {
+    "1": {
+      "question": "Abcd",
+      "type": "radio",
+      "answers": {
+        "1": "first",
+        "2": "second",
+        "3": "third",
+        "4": "fourth"
+      },
+      "correct": 1
+    },
+    "2": {
+      "question": "1233124",
+      "type": "radio",
+      "answers": {
+        "1": "1312312",
+        "2": "aasdda",
+        "3": "tadsashird",
+        "4": "foadasdurth"
+      },
+      "correct": 3
+    },
+    "3": {
+      "question": "Abadadscd",
+      "type": "radio",
+      "answers": {
+        "1": "111111",
+        "2": "22222222",
+        "3": "3333333",
+        "4": "44444"
+      },
+      "correct": 2
+    },
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.16.1.0" guid="74d24fbec070b4057e5f15a0a680cc7ffadaefd2" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<options two_sided="1"/>
+	<texture name="albedo">guid://e02311d9558451643f58ed7312c9d43654823e1d</texture>
+	<texture name="shading">guid://d962777d2d3fd2b88a99f6b7b66c64aa84a5cc01</texture>
+	<texture name="normal">guid://8b1610a3b719bda64f83b8cdcdc603c8f386d487</texture>
+	<parameter name="metalness" expression="0">1</parameter>
+</material>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property version="2.16.1.0" name="myTool" manual="1" parent_name="node_base">
+	<parameter name="Type" type="string"/>
+	<parameter name="Name" type="string"/>
+	<parameter name="BackgroundColor" type="string">#B4C3D4</parameter>
+	<parameter name="integers" type="int">0</parameter>
+	<parameter name="ImgSrc1" type="string"/>
+	<parameter name="ImgSrc2" type="string"/>
+	<parameter name="ImgSrc3" type="string"/>
+	<parameter name="Description1" type="string"/>
+	<parameter name="Description2" type="string"/>
+	<parameter name="Description3" type="string"/>
+	<parameter name="ButtonText1" type="string"/>
+	<parameter name="ButtonText2" type="string"/>
+	<parameter name="ButtonText3" type="string"/>
+</property>

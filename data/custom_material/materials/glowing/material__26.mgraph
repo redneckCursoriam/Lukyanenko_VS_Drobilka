@@ -1,0 +1,338 @@
+{
+	"material": {
+		"type": 0,
+		"normal_space": 2,
+		"vertex_position_space": 1,
+		"vertex_offset_space": 2,
+		"vertex_mode": 0,
+		"advanced_mode": false,
+		"compiler_ieee_strictness": false,
+		"compiler_optimization_level": 4,
+		"compiler_warning_mode": 2,
+		"cast_gi": false,
+		"depth_shadow": true,
+		"screen_projection": false,
+		"force_velocity": true,
+		"tessellation": false,
+		"two_sided": false,
+		"overlap": false,
+		"depth_test": true,
+		"depth_write": true,
+		"gbuffer": true,
+		"depth_mode": 0,
+		"decal_tbn_mode": 0,
+		"normal_blend_mode": 0,
+		"render_order_full": "After Post Materials",
+		"render_order_friendly": "Before Post Materials",
+		"user_mode": "Artist Friendly",
+		"use_taa": false,
+		"color_clamping_mode": "Disabled",
+		"fix_flicker": false,
+		"antialiasing_in_motion": false,
+		"diagonal_neighbors": false,
+		"catmull_resampling": false,
+		"frames_by_velocity": false,
+		"frames_by_color": false,
+		"blend_mode": 0,
+		"blend_src": 5,
+		"blend_dest": 6
+	},
+	"parameters": {
+		"parameter": {
+			"type": "Float4",
+			"guid": "493b4b02e7868e7984d9658483cfb3132c2f9d56",
+			"value": {
+				"type": "float4",
+				"name": "specular_color",
+				"min_value": 0,
+				"max_value": 1,
+				"value_w": 1,
+				"value_z": 0.78430002927780151,
+				"value_y": 0.78430002927780151,
+				"value_x": 0.78430002927780151
+			}
+		},
+		"parameter": {
+			"type": "Float4",
+			"guid": "bf8375acd4ca751b2502a7be8df52c056de92da0",
+			"value": {
+				"type": "float4",
+				"name": "albedo_color",
+				"min_value": 0,
+				"max_value": 1,
+				"value_w": 1,
+				"value_z": 0.78430002927780151,
+				"value_y": 0.78430002927780151,
+				"value_x": 0.78430002927780151
+			}
+		}
+	},
+	"version": "2.16.1.0",
+	"nodes": {
+		"Material": {
+			"label": "Material",
+			"guid": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"x": 121,
+			"y": 35,
+			"collapsed": false,
+			"props": {
+			},
+			"inputs": {
+				"input": {
+					"label": "Albedo",
+					"type": "float3",
+					"id": -509366906
+				},
+				"input": {
+					"label": "Metalness",
+					"type": "float",
+					"id": -1695405859
+				},
+				"input": {
+					"label": "Roughness",
+					"type": "float",
+					"id": 1466423059
+				},
+				"input": {
+					"label": "Specular",
+					"type": "float",
+					"id": -452932161
+				},
+				"input": {
+					"label": "Microfiber",
+					"type": "float",
+					"id": -410190875
+				},
+				"input": {
+					"label": "Normal Tangent Space",
+					"type": "float3",
+					"id": -1328428335
+				},
+				"input": {
+					"label": "Translucent",
+					"type": "float",
+					"id": 480745549
+				},
+				"input": {
+					"label": "Ambient Occlusion",
+					"type": "float",
+					"id": 979644461
+				},
+				"input": {
+					"label": "Emission",
+					"type": "float3",
+					"id": -2120341480
+				},
+				"input": {
+					"label": "Velocity",
+					"type": "float2",
+					"id": -1513164944
+				},
+				"input": {
+					"label": "Auxiliary",
+					"type": "float4",
+					"id": -488030030
+				},
+				"input": {
+					"label": "Depth Offset",
+					"type": "float",
+					"id": 1982984727
+				},
+				"input": {
+					"label": "Vertex Position Object Space",
+					"type": "float3",
+					"id": 1951750090
+				}
+			},
+			"outputs": {
+				"output": {
+					"label": "Material",
+					"type": "",
+					"id": 0
+				}
+			}
+		},
+		"Final": {
+			"label": "Final",
+			"guid": "0f2f417e3b3b7ac5ee9bad604fcb013f4b641d92",
+			"x": 354,
+			"y": 158,
+			"collapsed": false,
+			"props": {
+			},
+			"inputs": {
+				"input": {
+					"label": "Material",
+					"type": "",
+					"id": 0
+				}
+			},
+			"outputs": {
+			}
+		},
+		"Parameter": {
+			"type": "float4",
+			"label": "float4",
+			"guid": "d0f034bdb419eef80d2ee5f70c900aea54f2bd41",
+			"x": -33,
+			"y": 148,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float4",
+					"w": 1,
+					"z": 0.78430002927780151,
+					"y": 0.78430002927780151,
+					"x": 0.78430002927780151
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "specular_color",
+					"type": "float4",
+					"id": 0
+				}
+			},
+			"parameter_guid": "493b4b02e7868e7984d9658483cfb3132c2f9d56"
+		},
+		"Color (Float3)": {
+			"type": "float3",
+			"label": "float3",
+			"guid": "c4080d42b191ebb969d4a1c420d342538db16396",
+			"x": -113,
+			"y": 69,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float3",
+					"z": 0.54901963472366333,
+					"y": 0.54901963472366333,
+					"x": 0.54901963472366333
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "0.54902 0.54902 0.54902",
+					"type": "float3",
+					"id": 0
+				}
+			}
+		},
+		"float": {
+			"type": "float",
+			"label": "float",
+			"guid": "d5c4c5fdd404cf3827b5c9375535152ac7a9c281",
+			"x": 43,
+			"y": 122,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 0.10000000149011612
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "0.1",
+					"type": "float",
+					"id": 0
+				}
+			}
+		},
+		"float": {
+			"type": "float",
+			"label": "float",
+			"guid": "e36b5566e3deed8dd42c318874b1a7474809bbfa",
+			"x": 43,
+			"y": 95,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 1
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "1.0",
+					"type": "float",
+					"id": 0
+				}
+			}
+		}
+	},
+	"anchors": {
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float3",
+			"input_label": "Albedo",
+			"input_id": -509366906,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float3",
+			"output_label": "0.54902 0.54902 0.54902",
+			"output_id": 0,
+			"output_node": "c4080d42b191ebb969d4a1c420d342538db16396"
+		},
+		"anchor": {
+			"input_index": 1,
+			"input_type": "float",
+			"input_label": "Metalness",
+			"input_id": -1695405859,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "1.0",
+			"output_id": 0,
+			"output_node": "e36b5566e3deed8dd42c318874b1a7474809bbfa"
+		},
+		"anchor": {
+			"input_index": 2,
+			"input_type": "float",
+			"input_label": "Roughness",
+			"input_id": 1466423059,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "0.1",
+			"output_id": 0,
+			"output_node": "d5c4c5fdd404cf3827b5c9375535152ac7a9c281"
+		},
+		"anchor": {
+			"input_index": 3,
+			"input_type": "float",
+			"input_label": "Specular",
+			"input_id": -452932161,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float4",
+			"output_label": "specular_color",
+			"output_id": 0,
+			"output_node": "d0f034bdb419eef80d2ee5f70c900aea54f2bd41"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "",
+			"input_label": "Material",
+			"input_id": 0,
+			"input_node": "0f2f417e3b3b7ac5ee9bad604fcb013f4b641d92",
+			"output_index": 0,
+			"output_type": "",
+			"output_label": "Material",
+			"output_id": 0,
+			"output_node": "829f90678c21529ab2138131aaaf08dc82560e8b"
+		}
+	}
+}

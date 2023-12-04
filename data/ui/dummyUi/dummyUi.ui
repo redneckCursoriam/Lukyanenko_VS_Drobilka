@@ -1,0 +1,22 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<ui version="1.0">
+  <scrollbox width="335" height="600" scroll_height="600" name="vbox2" border="0" export="0" align="expand" venabled="1" henabled="0">
+      <!-- <scrollbox name="scrollbox" export="0" space="8" align="expand" border="1" henabled="1" venabled ="1"> -->
+      <vbox width="350" height="600">
+        <sprite align="overlap" pos_x="0" pos_y="0" width="350" height="550" texture="./data/sourceUI/back_menu.png"></sprite>
+
+        <sprite name="exit" width="26" heigh="26" align="overlap" pos_x="8" pos_y="20" texture="./data/sourceUI/exit.png"></sprite>
+        <sprite name="svernut" width="26" heigh="26" align="overlap" texture="./data/sourceUI/left.png" pos_x="309" pos_y="15"></sprite>
+
+        <sprite name="mainWorld" align="overlap" width="120" pos_x="36" pos_y="88" scale_y="0.5" texcoord_w="0.5" texture="./data/sourceUI/btn_main2.png"></sprite>
+        <sprite name="museumWorld" align="overlap" width="120" pos_x="193" pos_y="88" scale_y="0.5" texcoord_w="0.5" texture="./data/sourceUI/btn_museum2.png"></sprite>
+        <sprite name="testWorld" align="overlap" width="120" pos_x="36" pos_y="241" scale_y="0.5" texcoord_w="0.5" texture="./data/sourceUI/btn_sborka_razborka.png"></sprite>
+        <sprite name="stepAnimWorld" align="overlap" width="120" pos_x="193" pos_y="241" scale_y="0.5" texcoord_w="0.5" texture="./data/sourceUI/btn_posled_razborka.png"></sprite>
+        <sprite name="animation" align="overlap" width="120" pos_x="36" pos_y="394" scale_y="0.5" texcoord_w="0.5" texture="./data/sourceUI/animation.png"></sprite>
+        <sprite name="docs" align="overlap" width="120" pos_x="193" pos_y="394" scale_y="0.5" texcoord_w="0.5" texture="./data/sourceUI/docs.png"></sprite>
+      </vbox>
+      <!-- </scrollbox> -->
+  </scrollbox>
+</ui>

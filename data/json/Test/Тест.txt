@@ -1,0 +1,22 @@
+{
+  "questions": {
+    "1": {
+      "name": "Abcd",
+      "type": "radio",
+      "answers": [ "", "", "" ],
+      "correct": [ 1 ]
+    },
+    "2": {
+      "name": "Abcd",
+      "type": "checkbox",
+      "answers": [ "", "", "" ],
+      "correct": [ 1, 3 ]
+    },
+    "3": {
+      "name": "Abcd",
+      "type": "checkbox",
+      "answers": [ "", "", "" ],
+      "correct": [ 1 ]
+    },
+  }
+}

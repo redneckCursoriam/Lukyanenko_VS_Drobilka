@@ -1,0 +1,14 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<ui version="1.0">
+   <window name="mainFrame"  color="#FFFFFF">
+  <option value="1">1</option>
+      <button name="doubleLeft" texture="./data/png/doubleLeft.png" > <text>1</text>
+      </button>
+      <button name="resume" texture="./data/png/resume.png"><text>2</text>
+      </button>
+      <button name="doubleRight" texture="./data/png/doubleRight.png"><text>3</text>
+     </button>
+  </window>
+</ui>

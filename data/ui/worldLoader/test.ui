@@ -1,0 +1,34 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<ui version="1.0">
+    <vbox height="650" width="600" name="doc">
+        <sprite name="img" align="overlap" pos_x="0" pos_y="0" height="600" width="600" texture="./data/sourceUI/background.png"></sprite>
+        <label name="numberQuestion" align="overlap" pos_x="25" pos_y="25" width="550">
+            <text size="30">Вопрос 30/30</text>
+        </label>
+        <label name="question" align="overlap" pos_x="25" pos_y="75" width="550">
+          <text size="22" wrap="true">Кто самый супер классный участник супер крутого пд "Студия цифровых прототипов?</text>
+        </label>
+        <vbox name="variants" align="overlap" pos_x="25" pos_y="160" width="550">
+            <checkbox name="radiobutton" export="1" checked="1" width="550">
+                <text size="22">Юлия</text>
+            </checkbox>
+            <checkbox name="radiobutton2" export="1" width="550">
+                <attach>radiobutton</attach>
+                <text size="22">Юля</text>
+            </checkbox>
+            <checkbox name="radiobutton3" export="1" width="550">
+                <attach>radiobutton</attach>
+                <text size="22">Дмитриева</text>
+            </checkbox>
+            <checkbox name="radiobutton4" export="1" width="550">
+                <attach>radiobutton</attach>
+                <text size="22">Любительница котиков</text>
+            </checkbox>
+        </vbox>
+        <sprite name="back" align="overlap" pos_x="0" pos_y="550" width="200" height="50" scale_y="0.5" texcoord_w="0.5" texture="./data/sourceUI/back.png"></sprite>
+        <sprite name="next" align="overlap" pos_x="200" pos_y="550" width="200" height="50" scale_y="0.5" texcoord_w="0.5" texture="./data/sourceUI/btn_next.png"></sprite>
+        <sprite name="exit" width="200" height="50" align="overlap" pos_x="400" pos_y="550" scale_y="0.5" texcoord_w="0.5" texture="./data/sourceUI/btn_exit_200.png"></sprite>
+    </vbox>
+</ui>
